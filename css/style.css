@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+body{
+    background-color: #FFFF;
+    text-decoration: none;
+  }
+
+  header{
+    background-color: #FFFF;
+    text-align: center;
+    overflow: hidden;
+
+    h1{
+      font-size: 42px;
+      color: #FFFF;
+      line-height: 230px;
+      text-transform: uppercase;
+      font-weight: 100;
+    }
+
+    nav{
+      position: absolute;
+      bottom: 0;
+      height: 60px;
+      line-height: 60px;
+      width: 100%;
+      }
+
+    }
+
+    .cabecalho-titulo{
+      font-family: 'Bodoni Moda', serif;
+      font-size: 25px;
+      padding-top: 10px;
+    }
+
+    .cabecalho-item{
+      font-family: 'Forum', cursive;
+      color: black;
+      text-decoration: none;
+      padding: 30px;
+      background: transparent;
+      border: none;
+    }
+
+    .dropdown-opcoes {
+      display: none;
+      position: absolute;
+      overflow: auto;
+    }
+
+    .cabecalho-img{
+      height: 25px;
+      width: auto;
+    }
+
+    .nh-titulo h1{
+      font-family: 'Bodoni Moda', serif;
+      text-align: center;
+      font-size: 25px;
+      padding-top: 90px;
+      padding-bottom: 70px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .nh-titulo h1:before, h1:after{
+      content: "";
+      flex: 1 1;
+      border-bottom: 1px solid;
+      margin: auto;
+    }
+
+    .nh-titulo h1:before {
+      margin-right: 10px
+    }
+
+    .nh-titulo h1:after {
+      margin-left: 10px
+    }
+
+
+    .nh-conteudo{
+      font-family: 'Forum', cursive;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .box{
+      display: flex;
+      flex-wrap: wrap;
+      height: 400px;
+      align-content: space-between;
+      justify-content: center;
+    }
+
+    .nh-img-1{
+      height: 200px;
+      width: auto;
+    }
+
+    .box pre{
+      padding-left: 40px;
+      padding-right: 40px;
+      word-wrap: break-word;
+      font-family: 'Forum', cursive;
+
+    }
+
+    .nh-img-2{
+      height: 250px;
+      width: auto;
+      padding: 20px;
+      padding-bottom: 30px;
+    }
+
+    .cf-titulo h1{
+      font-family: 'Bodoni Moda', serif;
+      text-align: center;
+      font-size: 25px;
+      padding-top: 90px;
+      padding-bottom: 70px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .cf-titulo h1:before, h1:after{
+      content: "";
+      flex: 1 1;
+      border-bottom: 1px solid;
+      margin: auto;
+    }
+
+    .cf-titulo h1:before {
+      margin-right: 10px
+    }
+
+    .cf-titulo h1:after {
+      margin-left: 10px
+    }
+
+    .cf-vid{
+      padding-bottom: 70px;
+    }
+
+    .categorias-img {
+      height: 400px;
+      width: 300px;
+      padding: 50px;
+      border-top-left-radius: 100%;
+      border-top-right-radius: 100%;
+    }
