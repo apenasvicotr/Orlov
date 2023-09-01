@@ -12,22 +12,20 @@
 
 <body>
   <header class="cabecalho">
-    <h1 class="cabecalho-titulo">ORLOV</h1>
+    <a href="index.html"><h1 href="index.html" class="cabecalho-titulo">ORLOV</h1></a>
     <nav>
       <hr>
     </nav>
     <nav>
-      <a class="cabecalho-item" href="categorias.html">CATEGORIAS</a>
-      <a class="cabecalho-item" href="#">SERVIÇOS EXCLUSIVOS</a>
+      <a class="cabecalho-item" href="categorias.html">PRODUTOS</a>
       <a class="cabecalho-item" href="#como-fazemos">COMO FAZEMOS</a>
-      <a class="cabecalho-item" href="#">NOSSOS CLIENTES</a>
-      <a class="cabecalho-item" href="#">CONTATO</a>
-      <a class="cabecalho-item" href="#nossa-historia">NOSSA HISTÓRIA</a>
+      <a class="cabecalho-item" href="#nossos-clientes">NOSSOS CLIENTES</a>
+      <a class="cabecalho-item" href="contato.html">CONTATO</a>
       <a class="cabecalho-item" href="#">🔍︎</a>
     </nav>
   </header>
 
-  <br><br>
+  <br><br><br>
 
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
@@ -40,13 +38,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/placeholder.png" height="400px" width="auto" class="d-block w-100">
+        <img src="img/carrossel-3.png" max-height="400px" width="auto" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="img/placeholder.png" height="400px" class="d-block w-100">
+        <img src="img/carrosel2.png" max-height="400px" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="img/placeholder.png" height="400px" class="d-block w-100">
+        <img src="img/carrosel3.png" max-height="400px" class="d-block w-100">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -61,35 +59,20 @@
     </button>
   </div>
 
-  <section class="nossa-historia">
-    <container class="nh-titulo">
-      <h1 id="nossa-historia" class="nh-titulo">NOSSA HISTÓRIA</h1>
-    </container>
-    <container class="nh-conteudo">
-      <div class="box">
-
-        <div>
-          <img class="nh-img-1" src="img/placeholder.png" alt="">
-        </div>
-
-        <pre>Catherine Thomás nasceu em 1895, pertencendo 
-a uma família de tradição joalherística antiga, 
-sempre teve incentivo dos pais para seguir a carreira 
-e isso a levou a ser uma das primeiras mulheres a
-abrir um negócio naquela época e sua perseverança
-perante os desafios de seu tempo inspira milhões
-de pessoas até hoje.</pre>
-
-        <div>
-          <img class="nh-img-1" src="img/placeholder.png" alt="">
-        </div>
-
-        <div>
-          <img class="nh-img-2" src="img/placeholder.png" alt="">
-        </div>
-
+  <section class="nossos-clientes">
+   
+    <container class="cf-titulo">
+      <h1 id="nossos-clientes" class="cf-titulo">NOSSOS CLIENTES</h1>
     </container>
 
+    <div id="clientes">
+    <img class="cliente" src="img/lilnas.png" alt="">
+    <img class="cliente" src="img/muiequenseionome.png" alt="">
+    <img class="cliente" src="img/mulherquenseionome2.png" alt="">
+    <img class="cliente" src="img/zendaya.png" alt="">
+    <img class="cliente" src="img/doisquenseionome.png" alt="">
+    <img class="cliente" src="img/rihana.png" alt="">
+    </div>  
   </section>
 
 
@@ -103,12 +86,7 @@ de pessoas até hoje.</pre>
       <div class="box">
 
         <div>
-          <video class="cf-vid" width="650px" height="auto" controls="controls" autoplay="autoplay">
-            <source src="vid.mp4" type="video/mp4">
-            <object data="" width="320" height="240">
-            <embed width="320" height="240" src="vid.mp4">
-            </object>
-            </video>
+          <iframe width="1000" height="485" src="https://www.youtube.com/embed/xkBOA-TGmZU?si=hb5o4_ImVHbDwGVf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
       </div>
@@ -116,7 +94,10 @@ de pessoas até hoje.</pre>
 
   </section>
 
-  <div class="container">
+  <br>
+  <br>
+
+  <div class="container" id="footer">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
